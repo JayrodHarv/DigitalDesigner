@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<ToolBar xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jayrodharv.digitaldesigner.MainToolbarController">
+  <Button text="Cut">
+<!--    <graphic>-->
+<!--      <FontIcon iconLiteral="di-java" iconSize="64"/>-->
+<!--    </graphic>-->
+  </Button>
+  <Button mnemonicParsing="false" text="Copy" />
+  <Button mnemonicParsing="false" text="Paste" />
+  <Button mnemonicParsing="false" text="Start" />
+  <Button mnemonicParsing="false" text="Stop" />
+  <Button mnemonicParsing="false" text="DC Steady State" />
+  <Button mnemonicParsing="false" text="Transient Analysis" />
+</ToolBar>
